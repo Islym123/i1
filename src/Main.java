@@ -9,7 +9,7 @@ public class Main {
             double result = 0;
             for (int i = 0; i < x; i++)
             {
-                result = Math.pow(x, i * 2 + 1) / 2 * i + 1;
+                result += Math.pow(x, i * 2 + 1) / 2 * i + 1;
             }
             System.out.println(result * 2);
         }
